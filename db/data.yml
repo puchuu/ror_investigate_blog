@@ -1,0 +1,101 @@
+
+--- 
+books: 
+  columns: 
+  - id
+  - title
+  - author
+  - content
+  - created_at
+  - updated_at
+  records: 
+  - - "4"
+    - asdasd
+    - asdasd
+    - asdasd
+    - 2011-06-27 16:56:15
+    - 2011-06-27 16:56:15
+  - - "5"
+    - asdasdasd
+    - asdasdasd
+    - asdasdasd
+    - 2011-06-27 16:56:25
+    - 2011-06-27 16:56:25
+  - - "7"
+    - !binary |
+      0L/Qv9GA0L7Qv9GA0L4=
+
+    - !binary |
+      0L/RgNC+0L3QvtC70L3QvtC7
+
+    - !binary |
+      0L3QvtGA0YzQvdGA0L3RgNGM0L3RgNGM
+
+    - 2011-06-27 17:14:45
+    - 2011-06-27 17:14:45
+
+--- 
+comments: 
+  columns: 
+  - id
+  - commenter
+  - body
+  - post_id
+  - created_at
+  - updated_at
+  records: 
+  - - "1"
+    - asdasdas
+    - dasdasdasdasd
+    - "1"
+    - 2011-06-25 12:50:13
+    - 2011-06-25 12:50:13
+  - - "2"
+    - asdasdasdasdas
+    - sdfgsdgefgefg
+    - "1"
+    - 2011-06-25 12:50:21
+    - 2011-06-25 12:50:21
+  - - "7"
+    - ""
+    - ""
+    - "2"
+    - 2011-06-27 14:05:25
+    - 2011-06-27 14:05:25
+
+--- 
+posts: 
+  columns: 
+  - id
+  - name
+  - title
+  - content
+  - created_at
+  - updated_at
+  records: 
+  - - "2"
+    - asdasd
+    - sdfsdfs
+    - sdfsdfsdfsdf!!!
+    - 2011-06-27 13:15:30
+    - 2011-06-27 13:16:26
+
+--- 
+tags: 
+  columns: 
+  - id
+  - name
+  - post_id
+  - created_at
+  - updated_at
+  records: 
+  - - "2"
+    - asdasdasdads
+    - "2"
+    - 2011-06-27 14:05:24
+    - 2011-06-27 14:05:24
+  - - "4"
+    - asdasdasdasd
+    - "2"
+    - 2011-06-27 14:05:52
+    - 2011-06-27 14:05:52

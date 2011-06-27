@@ -75,6 +75,7 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.28)
+    yaml_db (0.2.1)
 
 PLATFORMS
   ruby
@@ -83,3 +84,4 @@ DEPENDENCIES
   mysql
   rails (= 3.0.9)
   ruby-debug
+  yaml_db
