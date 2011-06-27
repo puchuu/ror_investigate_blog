@@ -1,0 +1,19 @@
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Content</th>
+  </tr>
+
+  <tr>
+	<td><%= @book.title %></td>
+	<td><%= @book.author %></td>
+	<td><%= @book.content %></td>
+  </tr>
+</table>
+
+<br />
+
+<%= link_to "Change", edit_book_path(@book) %> |
+<%= link_to "Remove", @book, :confirm => "Are you sure?", :method => :delete %> |
+<%= link_to "Back", books_path %>
