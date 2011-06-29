@@ -7,6 +7,9 @@ gem "rails", "3.0.9"
 
 gem "mysql"
 gem "yaml_db"
+gem "redcarpet"
+gem "albino"
+gem "nokogiri"
 
 # Use unicorn as the web server
 # gem 'unicorn'

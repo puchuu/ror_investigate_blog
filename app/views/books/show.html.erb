@@ -8,7 +8,7 @@
   <tr>
 	<td><%= @book.title %></td>
 	<td><%= @book.author %></td>
-	<td><%= @book.content %></td>
+	<td><%= markdown(@book.content) %></td>
   </tr>
 </table>
 
