@@ -14,7 +14,7 @@
 	<tr>
 	  <td><%= book.title %></td>
 	  <td><%= book.author %></td>
-	  <td><%= book.content %></td>
+	  <td><%= markdown(book.content) %></td>
 	  <td><%= link_to "Show", book %></td>
 	  <td><%= link_to "Change", edit_book_path(book) %></td>
 	  <td><%= link_to "Remove", book, :confirm => "Are you sure?", :method => :delete %></td>
