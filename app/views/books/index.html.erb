@@ -24,4 +24,8 @@
 
 <br />
 
+<p>
+  <%= paginate @books, :window => 1 %>
+</p>
+
 <%= link_to "New book", new_book_path %>

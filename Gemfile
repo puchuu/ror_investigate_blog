@@ -10,6 +10,7 @@ gem "yaml_db"
 gem "redcarpet"
 gem "albino"
 gem "nokogiri"
+gem "kaminari"
 
 # Use unicorn as the web server
 # gem 'unicorn'
